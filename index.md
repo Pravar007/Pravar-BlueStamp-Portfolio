@@ -5,6 +5,7 @@
 # **Starter Project**
 ![Headstone Image](TV-B-Gone.PNG)
 **TV-B-Gone!**
+
 The TV-B-Gone is a small remote device that, with the press of a button, turns off any TV within a 150 foot radius. This remote consists of one  microcontroller, with five transistors, two 1.0Kohm resistors, three capacitors, and a battery holder for two AA batteries. The main parts are the four IR LEDs which broadcast the signal to turn off the TVs, the button, used to turn on the IR LEDs, an indicator LED that signals whether or not the device is turned on. Putting together this project involved placing and soldering all the components onto the circuit board, periodically testing that everything is working as intended. Once finished, a press of the button starts a broadcast of the most common IR codes for TVs in order to turn them off. 
 
 **Components list**
