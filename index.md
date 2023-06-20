@@ -10,35 +10,20 @@ The TV-B-Gone is a small remote device that, with the press of a button, turns o
 | **Component** | **Quantity** |
 |:--:|:--:|
 | IC1 Microcontroller | 1 |
-|:--:|:--:|:--:|:--:|
 | IC1' 8-pin socket | 1 | 
-|:--:|:--:|:--:|:--:|
 | XTL1 8.00 MHz ceramic oscillator | 1 | 
-|:--:|:--:|:--:|:--:|
 | C2 220uF capacitor | 1 |
-|:--:|:--:|:--:|:--:|
 | C1	Ceramic 0.1uF capacitor (104) | 1 |
-|:--:|:--:|:--:|:--:|
 | R1, R5	1.0Kohm 1/4W 5% resistor | 2 |
-|:--:|:--:|:--:|:--:|
 | Narrow beam IR LED | 2 | 
-|:--:|:--:|:--:|:--:|
 | Wide beam IR LED | 2 |
-|:--:|:--:|:--:|:--:|
 | 3mm Green LED | 1 |
-|:--:|:--:|:--:|:--:|
 | SW1	6mm tact switch button | 1 |
-|:--:|:--:|:--:|:--:|
 | Q5	PNP transistor, EBC pinout | 1 |
-|:--:|:--:|:--:|:--:|
 | Q1 Q2 Q3 Q4	NPN Transistor (TO-92) compatible with 2N3904 EBC pinout | 4 |
-|:--:|:--:|:--:|:--:|
 | BATT	2x AA battery holder | 1 | 
-|:--:|:--:|:--:|:--:|
 | AA Battery 1.5 V | 2 | 
-|:--:|:--:|:--:|:--:|
 | PCB | 1 |
-|:--:|:--:|:--:|:--:|
 
 # Hexapod Robot
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
