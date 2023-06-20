@@ -14,7 +14,7 @@ The TV-B-Gone is a small remote device that, with the press of a button, turns o
 | XTL1 8.00 MHz ceramic oscillator | 1 | 
 | C2 220uF capacitor | 1 |
 | C1	Ceramic 0.1uF capacitor (104) | 1 |
-| R1, R5	1.0Kohm 1/4W 5% resistor | 2 |
+| R1, R5 1.0Kohm 1/4W 5% resistor | 2 |
 | Narrow beam IR LED | 2 | 
 | Wide beam IR LED | 2 |
 | 3mm Green LED | 1 |
