@@ -18,22 +18,23 @@
 
 The TV-B-Gone is a small remote device that, with the press of a button, turns off any TV within a 150 foot radius. This remote consists of one  microcontroller, with five transistors, two 1.0Kohm resistors, three capacitors, and a battery holder for two AA batteries. The main parts are the four IR LEDs which broadcast the signal to turn off the TVs, the button, used to turn on the IR LEDs, an indicator LED that signals whether or not the device is turned on. Putting together this project involved placing and soldering all the components onto the circuit board, periodically testing that everything is working as intended. Once finished, a press of the button starts a broadcast of the most common IR codes for TVs in order to turn them off. 
 
-### **Components list**
-
-**1.** IC1' 8-pin socket                                                  
-**2.** XTL1 8.00 MHz ceramic oscillator                                 
-**3.** C2 220uF capacitor                                               
-**4.** C1	Ceramic 0.1uF capacitor (104)                                 
-**5.** R1, R5 1.0Kohm 1/4W 5% resistor                                  
-**6.** Narrow beam IR LED                                                
-**7.** Wide beam IR LED                                                  
-**8.** 3mm Green LED                                                     
-**9.** SW1	6mm tact switch button                                       
-**10.** Q5	PNP transistor, EBC pinout                                     
-**11.** Q1 Q2 Q3 Q4	NPN Transistor (TO-92) compatible w/ 2N3904 EBC pinout
-**12.** BATT	2x AA battery holder                                         
-**13.** AA Battery 1.5 V                                                  
-**14.** PCB                                                               
+| **Components list** | **Quantity** |
+| -----------------| ----------------|
+| IC1' 8-pin socket | 1 |    
+| IC1 Microcontroller | 1 |
+| XTL1 8.00 MHz ceramic oscillator | 1 |                                  
+| C2 220uF capacitor | 1 |                                               
+| C1	Ceramic 0.1uF capacitor (104) | 1 |
+| R1, R5 1.0Kohm 1/4W 5% resistor | 2 |                                
+| Narrow beam IR LED  | 2 |                                               
+| Wide beam IR LED  | 2 |                                                 
+| 3mm Green LED        | 1 |                                              
+| SW1	6mm tact switch button    | 1 |                                    
+| Q5	PNP transistor, EBC pinout        | 1 |                              
+| Q1 Q2 Q3 Q4	NPN Transistor (TO-92) compatible w/ 2N3904 EBC pinout | 4 |
+| BATT	2x AA battery holder        | 1 |                                  
+| AA Battery 1.5 V | 2 |                                                  
+| PCB  | 1 |                                                              
 
 
 <!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
