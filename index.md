@@ -1,3 +1,4 @@
+theme: Merlot
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Pravar K | Thomas Jefferson High School for Science and Technology | Mehcanical Engineering | Rising Junior 
