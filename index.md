@@ -4,6 +4,10 @@
 
 # **Mini Tank**
 
+## **Milestone Two**
+
+My second milestone with the mini tank robot is achieving full movement. This means both my servos operate as intended, in both directions and at different speeds. My goal for movement was for the robot to be able to move fully by itself, and be 
+
 ## **Milestone One**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kTaH7wy5VD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
