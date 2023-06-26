@@ -37,7 +37,7 @@ The TV-B-Gone is a small remote device that, with the press of a button, turns o
 | 3mm Green LED        | 1 |                                              
 | SW1	6mm tact switch button    | 1 |                                    
 | Q5	PNP transistor, EBC pinout        | 1 |                              
-| Q1 Q2 Q3 Q4	NPN Transistor (TO-92) compatible w/ 2N3904 EBC pinout | 4 |
+| Q1,2,3,4,	NPN Transistor(TO-92)-> 2N3904 EBC pinout | 4 |
 | BATT	2x AA battery holder        | 1 |                                  
 | AA Battery 1.5 V | 2 |                                                  
 | PCB  | 1 |                                                              
