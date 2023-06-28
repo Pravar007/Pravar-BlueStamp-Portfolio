@@ -5,6 +5,9 @@
 # **Mini Tank**
 
 ## **Milestone Three**
+<iframe width="520" height="293" src="https://www.youtube.com/embed/d-ae45pgoyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+This third milestone represents full completion of the stock project. This means full movement and full functionality of all the sensors on board. The robot now is able to be controlled by both bluetooth and a remote, avoid obstacles, follow obstacles, follow light, and display messages on the LED screen mounted to the front. The obstacle detection for the avoidance and follow features uses an ultrasonic sensor mounted onto a servo motor. 
 
 ## **Milestone Two**
 <iframe width="520" height="293" src="https://www.youtube.com/embed/A6prT1Q4WG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
