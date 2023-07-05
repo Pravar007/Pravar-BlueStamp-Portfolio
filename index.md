@@ -10,15 +10,15 @@
 The third milestone represents full completion of the stock project. This means full movement (achieved in the previous milestone) and full functionality of all the sensors on board. The tank is now able to be controlled by both bluetooth and IR remote, and is capable of avoiding obstacles, following obstacles, following light, and displaying messages on the LED screen mounted to the front. The sensors are used as follows: 
 
 
-**IR Reciever**
+**IR Reciever:**  
 The IR reciever is used to control the movements and features of the robot via a remote. The remote consists of four directional buttons, one "OK" button, and a number pad including "✱" and "#". To control the movement of the tank, the four directional buttons are used, up(forward), down(reverse), left, and right. The "OK" button is a full stop, and stops both the motors as well as stopping any ongoing actions such as object following, obstacle avoidance, or light following. These features are contolled by the "✱", "0", and the "#" buttons, respectively. 
 
 
-**Ultrasonic**
+**Ultrasonic:**  
 The ultrasonic sensor is used for both the object following and obstacle avoidance features. The former works as such: when the ultrasonic sensor detects an objcet in front of it, it will follow it. If the distance between the object and the robot is between 20 and 60 centimeters, the robot will move forward. If it's between 10 to 20 centimeters, the robot will stop, and anything less than 10 centimeters makes the robot reverse. If the robot does not detect anything in front of it (distance > 60cm) then it will stop, moving only when it detects an object. The object avoidance uses a servo motor in conjunction with the main ultrasonic sensor; the sensor is attached to the servo, which means that it can pivot and "look" around the robot at various angles in order to spot either a clear path or another obstacle. The robot will keep moving forward until it detects an obstacle in front of it. When that occurs, the servo turns the ultrasonic sensor left and right in order to spot a path. When it does, the robot will turn until it is facing the clear path, and then move forward until it detects an obstacle, where this process repeats. If both the left and right sides are blocked, the robot chooses a random direction and goes that way until it's met with an obstacle, where it repeats this process. Since the robot detects objects up to 60 centimeters away, turning in a random direction forces it towards the object, where it stops 20 cm away. Then, when it repeats the original process, it has a higher likelihood of finding a clear path. 
 
 
-**Photoresistor**
+**Photoresistor:**  
 The photoresistors are used for the light follow feature. If both pick up bright light (returning a value greater than 650), the robot moves forward. If one picks up brighter light than the other, it will turn towards the light source (the photoresistor that picks up the brighter light) until both photoresistors recieve the same amount of light, when it moves forward. If neither one returns a value greater than 650, the robot will stop moving until that changes.
 
 
