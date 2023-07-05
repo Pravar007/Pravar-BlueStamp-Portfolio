@@ -11,7 +11,7 @@ The third milestone represents full completion of the stock project. This means 
 
 
 **IR Reciever:**  
-The IR reciever is used to control the movements and features of the robot via a remote. The remote consists of four directional buttons, one "OK" button, and a number pad including "✱" and "#". To control the movement of the tank, the four directional buttons are used, up(forward), down(reverse), left, and right. The "OK" button is a full stop, and stops both the motors as well as stopping any ongoing actions such as object following, obstacle avoidance, or light following. These features are contolled by the "✱", "0", and the "#" buttons, respectively. 
+The IR reciever is used to control the movements and features of the robot via a remote. The remote consists of four directional buttons, one "OK" button, and a number pad including "✱" and "**#**". To control the movement of the tank, the four directional buttons are used, up(forward), down(reverse), left, and right. The "OK" button is a full stop, and stops both the motors as well as stopping any ongoing actions such as object following, obstacle avoidance, or light following. These features are contolled by the "✱", "0", and the "**#**" buttons, respectively. 
 
 
 **Ultrasonic:**  
