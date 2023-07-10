@@ -1,8 +1,9 @@
+# **Mini Tank**
+A tank for the average household, as useful to you as the M-1 Abrams is to the average soldier. Controlled by a remote, it has the ability to follow your hand, avoid obstacles, follow a light source, and pick up items. It can do this using a suite of sensors, including an ultrasonic sensor, photoresistors, and an IR reciever. To pick things up, it has a robotic arm mounted to the rear, which is controlled by the same remote used to control the tank. The arm can swivel arond and pick up any small items like a TV remote and bring them to you. The arm uses four servo motors to allow for a full 360 degrees of reach. The brains of this entire operation is actually split in two; the main tank uses an Arduino UNO, and the arm uses a smaller Arduino NANO. 
+
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Pravar K | Thomas Jefferson High School for Science and Technology | Mehcanical Engineering | Rising Junior 
-
-# **Mini Tank**
 
 ## **Milestone Three**
 <iframe width="520" height="293" src="https://www.youtube.com/embed/d-ae45pgoyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
