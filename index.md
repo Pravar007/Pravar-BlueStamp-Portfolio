@@ -366,6 +366,8 @@ My first milestone with this project is finishing its assembly. The tank is buil
     delayMicroseconds(3);
   }
   /*************the function to run motor*************/
+
+// moves both motors full speed forward
   void Car_front()
   {
     digitalWrite(MR_Ctrl,LOW);
@@ -373,6 +375,8 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,200);
   }
+
+// moves both motors full speed backward
   void Car_back()
   {
     digitalWrite(MR_Ctrl,HIGH);
@@ -380,6 +384,8 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,HIGH);
     analogWrite(ML_PWM,200);
   }
+
+// moves both motors full speed, but right motor goes forward while left motor goes backward
   void Car_left()
   {
     digitalWrite(MR_Ctrl,LOW);
@@ -387,6 +393,8 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,HIGH);
     analogWrite(ML_PWM,255);
   }
+
+// // moves both motors full speed, but left motor goes forward while right motor goes backward
   void Car_right()
   {
     digitalWrite(MR_Ctrl,HIGH);
@@ -394,26 +402,14 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,255);
   }
+
+// stops both motors by setting speed to 0 
   void Car_Stop()
   {
     digitalWrite(MR_Ctrl,LOW);
     analogWrite(MR_PWM,0);
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,0);
-  }
-  void Car_T_left()
-  {
-    digitalWrite(MR_Ctrl,LOW);
-    analogWrite(MR_PWM,255);
-    digitalWrite(ML_Ctrl,LOW);
-    analogWrite(ML_PWM,180);
-  }
-  void Car_T_right()
-  {
-    digitalWrite(MR_Ctrl,LOW);
-    analogWrite(MR_PWM,180);
-    digitalWrite(ML_Ctrl,LOW);
-    analogWrite(ML_PWM,255);
   }
 ```
 
