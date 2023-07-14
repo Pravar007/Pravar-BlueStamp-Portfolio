@@ -6,3 +6,5 @@ IR_Remote.ino : code to control forward, back, left, and right movements with IR
 KS0428 Keyestudio Mini Tank Robot v2.0 for Arduino.pdf : Assembly Guide for mini tank 
 Lesson 6 - Assembly The Robot20230316.pdf : Assembly guide for robotic arm 
 Servo_ctrl.ino : experimental code to control servos using different types of functions 
+Tank Body : The CAD model for the outer shell of the tank covering the tank tracks 
+Tank Trailer : The CAD model for the trailer arm that attaches the robotic arm platform to the tank 
