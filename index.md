@@ -617,6 +617,10 @@ void claw_close() {
 
 ```
 
+### [Assembly Guide for Mini Tank](https://wiki.keyestudio.com/Ks0428_keyestudio_Mini_Tank_Robot_V2)
+
+### [Assmebly Guide for Robotic Arm](https://github.com/Cokoino/CKK0006)
+
 
 # **TV-B-Gone!**
 ![Headstone Image](TV-B-Gone.PNG)
