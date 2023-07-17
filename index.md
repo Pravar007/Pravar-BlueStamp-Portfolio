@@ -629,6 +629,27 @@ void claw_close() {
 
 ### [Assmebly Guide for Robotic Arm](https://github.com/Cokoino/CKK0006)
 
+## **Bill of Materials**
+
+### **Tank**
+| Part                              | Purpose                                        | Link to Buy on Amazon | Price |
+| --------------------------------- | ---------------------------------------------- | --------------------- | -------------- |
+| Arduino Uno R3 board              | Microcontroller for controlling the robot       | [Amazon](https://www.keyestudio.com/products/keyestudio-uno-r3-atmega328p-development-board-usb-cable-for-arduino) | $14.46 |
+| Keyestudio Motor Shield           | Motor driver board for controlling the motors   | [Amazon](https://www.keyestudio.com/products/keyestudio-4wd-tb6612-motor-driver-shield-black-and-eco-friendly) | $25.00 |
+| Ultrasonic sensor module SR01  | Obstacle detection and avoidance          | [Amazon](https://www.keyestudio.com/products/keyestudio-sr01-ultrasonic-sensor-module-v2-n76e003at20-for-arduino-robot-car) | $7.40 |
+| keyestudio HM-10 Bluetooth-4.0 V2 module For arduino | Wireless communication with smartphone/computer | [Amazon](https://www.keyestudio.com/products/keyestudio-hm-10-bluetooth-40-v2-module-for-arduino) | $7.80 |
+| 2 x DC gear motors                | Provides locomotion to the robot                | [Amazon](https://example.com) |
+| 4 x Wheels                        | Attaches to the motors for movement             | [Amazon](https://example.com) |
+| 1 x 9V battery holder             | Powers the Arduino board                        | [Amazon](https://example.com) |
+| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Amazon](https://example.com) |
+| M3 screws and nuts                | Secures components to the chassis               | [Amazon](https://example.com) |
+| M2 screws and nuts                | Secures smaller components                       | [Amazon](https://example.com) |
+| M3 nylon standoff spacers         | Provides spacing and support between components | [Amazon](https://example.com) |
+| M2.5 nylon standoff spacers       | Provides spacing and support for smaller components | [Amazon](https://example.com) |
+
+
+### **Arm**
+
 
 # **TV-B-Gone!**
 ![Headstone Image](TV-B-Gone.PNG)
