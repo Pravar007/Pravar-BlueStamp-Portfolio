@@ -632,24 +632,35 @@ void claw_close() {
 ## **Bill of Materials**
 
 ### **Tank**
-| Part                              | Purpose                                        | Link to Buy on Amazon | Price |
+| Part                              | Purpose                                        | Link to Buy | Price |
 | --------------------------------- | ---------------------------------------------- | --------------------- | -------------- |
-| Arduino Uno R3 board              | Microcontroller for controlling the robot       | [Amazon](https://www.keyestudio.com/products/keyestudio-uno-r3-atmega328p-development-board-usb-cable-for-arduino) | $14.46 |
-| Keyestudio Motor Shield           | Motor driver board for controlling the motors   | [Amazon](https://www.keyestudio.com/products/keyestudio-4wd-tb6612-motor-driver-shield-black-and-eco-friendly) | $25.00 |
-| Ultrasonic sensor module SR01  | Obstacle detection and avoidance          | [Amazon](https://www.keyestudio.com/products/keyestudio-sr01-ultrasonic-sensor-module-v2-n76e003at20-for-arduino-robot-car) | $7.40 |
-| keyestudio HM-10 Bluetooth-4.0 V2 module For arduino | Wireless communication with smartphone/computer | [Amazon](https://www.keyestudio.com/products/keyestudio-hm-10-bluetooth-40-v2-module-for-arduino) | $7.80 |
-| 2 x DC gear motors                | Provides locomotion to the robot                | [Amazon](https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B072R57C56/ref=sr_1_16?crid=338834IK8E9QL&keywords=dc%2Bgear%2Bmotor%2Bkeyestudio&qid=1689709200&sprefix=dc%2Bgear%2Bmotor%2Bkeyestudi%2Caps%2C123&sr=8-16&th=1) | $14.99 |
+| Arduino Uno R3 board              | Microcontroller for controlling the robot       | [UNO](https://www.keyestudio.com/products/keyestudio-uno-r3-atmega328p-development-board-usb-cable-for-arduino) | $14.46 |
+| Keyestudio Motor Shield           | Motor driver board for controlling the motors   | [Motor Shield](https://www.keyestudio.com/products/keyestudio-4wd-tb6612-motor-driver-shield-black-and-eco-friendly) | $25.00 |
+| Keyestudio Sensor Shield | Sensor Driver board to control sensors | [Sensor Shield](https://www.keyestudio.com/products/free-shipping-keyestudio-sensor-shield-expansion-board-v5-for-arduino-1) | $6.10 |
+| Ultrasonic sensor module SR01  | Obstacle detection and avoidance          | [SR01](https://www.keyestudio.com/products/keyestudio-sr01-ultrasonic-sensor-module-v2-n76e003at20-for-arduino-robot-car) | $7.40 |
+| keyestudio HM-10 Bluetooth-4.0 V2 module For arduino | Wireless communication with smartphone/computer | [HM-10](https://www.keyestudio.com/products/keyestudio-hm-10-bluetooth-40-v2-module-for-arduino) | $7.80 |
+| 2 x DC gear motors                | Provides locomotion to the robot                | [DC Motors](https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B072R57C56/ref=sr_1_16?crid=338834IK8E9QL&keywords=dc%2Bgear%2Bmotor%2Bkeyestudio&qid=1689709200&sprefix=dc%2Bgear%2Bmotor%2Bkeyestudi%2Caps%2C123&sr=8-16&th=1) | $14.99 |
 | 4 x Wheels                        | Attaches to the motors for movement             | N/A | N/A |
 | 2 x Tank Tracks  |  Wraps around wheels for movement | N/A | N/A |
-| 1 x 9V battery holder             | Powers the Arduino board                        | [Amazon](https://www.amazon.com/Battery-Connector-Plastic-Experiment-Equipment/dp/B08SL9X2YC/ref=sr_1_5?keywords=9v+battery+holder&qid=1689709640&sr=8-5) | $4.99 |
-| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Amazon](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG/ref=sr_1_3?keywords=jumper+wires&qid=1689719403&sr=8-3) | $8.99 |
-| M3 screws and nuts                | Secures components to the chassis               | [Amazon](https://example.com) |
-| M2 screws and nuts                | Secures smaller components                       | [Amazon](https://example.com) |
-| M3 nylon standoff spacers         | Provides spacing and support between components | [Amazon](https://example.com) |
-| M2.5 nylon standoff spacers       | Provides spacing and support for smaller components | [Amazon](https://example.com) |
+| 1 x 9V battery holder             | Connects to batter to power the Arduino board   | [Battery Holder 9V](https://www.amazon.com/Battery-Connector-Plastic-Experiment-Equipment/dp/B08SL9X2YC/ref=sr_1_5?keywords=9v+battery+holder&qid=1689709640&sr=8-5) | $4.99 |
+| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Jumper Wires](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG/ref=sr_1_3?keywords=jumper+wires&qid=1689719403&sr=8-3) | $8.99 |
+| M3 & M2 screws, nuts, and standoff spacers                | Secures components to the chassis               | [M3,M2 Set](https://www.amazon.com/Hilitchi-Female-Spacer-Standoff-Assortment/dp/B01DXVKWYG/ref=sr_1_3?crid=18ZDEMI82VMCJ&keywords=m3+and+m2+screws+and+nuts+and+standoffs&qid=1689719527&sprefix=m3+and+m2+screws+and+nuts+and+standof%2Caps%2C149&sr=8-3) | $11.98 |
+| 9V Battery | Powers Arduino | [Battery](https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B0774D64LT/ref=zg_bs_g_389576011_sccl_1/134-4404331-2282664?th=1) | $9.99 |
 
 
 ### **Arm**
+| Part                              | Purpose                                        | Link to Buy | Price |
+| --------------------------------- | ---------------------------------------------- | --------------------- | -------------- |
+| Arduino NANO | Used to control 4 arm servos and IR receiver | [Arduino NANO](https://www.amazon.com/Arduino-Nano-RP2040-Connect-Headers/dp/B095J4KFVT/ref=sr_1_4?crid=3VNEJAVM2ESD2&keywords=arduino+nano+cocolino&qid=1689719826&sprefix=arduino+nano+cokoino%2Caps%2C129&sr=8-4) | $31.50 | 
+| Arduino NANO screw terminal | Mounts the Arduino to the base | [NANO Terminal](https://www.amazon.com/Arduino-Terminal-Adapter-Single-ASX00037/dp/B0BQ7927LM/ref=sr_1_10?crid=3VNEJAVM2ESD2&keywords=arduino+nano+cocolino&qid=1689719826&sprefix=arduino+nano+cokoino%2Caps%2C129&sr=8-10) | $14.00 |
+| M3 & M2 screws, nuts, and standoff spacers                | Secures components to the chassis               | [M3,M2 Set](https://www.amazon.com/Hilitchi-Female-Spacer-Standoff-Assortment/dp/B01DXVKWYG/ref=sr_1_3?crid=18ZDEMI82VMCJ&keywords=m3+and+m2+screws+and+nuts+and+standoffs&qid=1689719527&sprefix=m3+and+m2+screws+and+nuts+and+standof%2Caps%2C149&sr=8-3) | $11.98 |
+| LK COKOINO Acrylic Structure | Body and structure of the arm | N/A | N/A |
+| 3 x 7KG Servos | Powers the main movement of the arm (Pivot + Claw) | [Servos](https://www.amazon.com/INJORA-Digital-Waterproof-Voltage-Sub-Micro/dp/B0BLBMPVDV/ref=sr_1_4?crid=15WHO3VNS6Y53&keywords=micro%2Bservo&qid=1688427326&s=toys-and-games&sprefix=micro%2Bservo%2Ctoys-and-games%2C133&sr=1-4&th=1) | $47.99 | 
+| MG90 9g Servo | Base of robot; allows robot to twist side to side | [Base Servo](https://www.amazon.com/Replace-Helicopter-Airplane-Controls-Vehicle/dp/B09KXM5L7Z/ref=sr_1_4?crid=3DJ65GX1TF7NM&keywords=MG90+1+pc&qid=1689720414&s=toys-and-games&sprefix=mg90+1+pc%2Ctoys-and-games%2C133&sr=1-4) | $8.49 |
+| 1 x 9V battery holder             | Connects to batter to power the Arduino board   | [Battery Holder 9V](https://www.amazon.com/Battery-Connector-Plastic-Experiment-Equipment/dp/B08SL9X2YC/ref=sr_1_5?keywords=9v+battery+holder&qid=1689709640&sr=8-5) | $4.99 |
+| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Jumper Wires](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG/ref=sr_1_3?keywords=jumper+wires&qid=1689719403&sr=8-3) | $8.99 |
+| 9V Battery | Powers Arduino | [Battery](https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B0774D64LT/ref=zg_bs_g_389576011_sccl_1/134-4404331-2282664?th=1) | $9.99 |
+
 
 
 # **TV-B-Gone!**
