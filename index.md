@@ -638,10 +638,11 @@ void claw_close() {
 | Keyestudio Motor Shield           | Motor driver board for controlling the motors   | [Amazon](https://www.keyestudio.com/products/keyestudio-4wd-tb6612-motor-driver-shield-black-and-eco-friendly) | $25.00 |
 | Ultrasonic sensor module SR01  | Obstacle detection and avoidance          | [Amazon](https://www.keyestudio.com/products/keyestudio-sr01-ultrasonic-sensor-module-v2-n76e003at20-for-arduino-robot-car) | $7.40 |
 | keyestudio HM-10 Bluetooth-4.0 V2 module For arduino | Wireless communication with smartphone/computer | [Amazon](https://www.keyestudio.com/products/keyestudio-hm-10-bluetooth-40-v2-module-for-arduino) | $7.80 |
-| 2 x DC gear motors                | Provides locomotion to the robot                | [Amazon](https://example.com) |
-| 4 x Wheels                        | Attaches to the motors for movement             | [Amazon](https://example.com) |
-| 1 x 9V battery holder             | Powers the Arduino board                        | [Amazon](https://example.com) |
-| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Amazon](https://example.com) |
+| 2 x DC gear motors                | Provides locomotion to the robot                | [Amazon](https://www.amazon.com/Greartisan-Electric-Reduction-Centric-Diameter/dp/B072R57C56/ref=sr_1_16?crid=338834IK8E9QL&keywords=dc%2Bgear%2Bmotor%2Bkeyestudio&qid=1689709200&sprefix=dc%2Bgear%2Bmotor%2Bkeyestudi%2Caps%2C123&sr=8-16&th=1) | $14.99 |
+| 4 x Wheels                        | Attaches to the motors for movement             | N/A | N/A |
+| 2 x Tank Tracks  |  Wraps around wheels for movement | N/A | N/A |
+| 1 x 9V battery holder             | Powers the Arduino board                        | [Amazon](https://www.amazon.com/Battery-Connector-Plastic-Experiment-Equipment/dp/B08SL9X2YC/ref=sr_1_5?keywords=9v+battery+holder&qid=1689709640&sr=8-5) | $4.99 |
+| Jumper wires (male-to-male, male-to-female, female-to-female) | Connects various components        | [Amazon](https://www.amazon.com/IZOKEE-Solderless-Breadboard-Arduino-Project/dp/B08151TQHG/ref=sr_1_3?keywords=jumper+wires&qid=1689719403&sr=8-3) | $8.99 |
 | M3 screws and nuts                | Secures components to the chassis               | [Amazon](https://example.com) |
 | M2 screws and nuts                | Secures smaller components                       | [Amazon](https://example.com) |
 | M3 nylon standoff spacers         | Provides spacing and support between components | [Amazon](https://example.com) |
@@ -656,7 +657,7 @@ void claw_close() {
 
 <iframe width="520" height="293" src="https://www.youtube.com/embed/QaLAbvSM52E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
 
-  The TV-B-Gone is a small remote device that, with the press of a button, turns off any TV within a 150 foot radius. This remote consists of one  microcontroller, with five transistors, two 1.0Kohm resistors, three capacitors, and a battery holder for two AA batteries. The main parts are the four IR LEDs which broadcast the signal to turn off the TVs, the button, used to turn on the IR LEDs, an indicator LED that signals whether or not the device is turned on. Putting together this project involved placing and soldering all the components onto the circuit board, periodically testing that everything is working as intended. Once finished, a press of the button starts a broadcast of the most common IR codes for TVs in order to turn them off. 
+  The TV-B-Gone is a small remote device that, with the press of a button, turns off any TV within a 150-foot radius. This remote consists of one  microcontroller, with five transistors, two 1.0Kohm resistors, three capacitors, and a battery holder for two AA batteries. The main parts are the four IR LEDs which broadcast the signal to turn off the TVs, the button used to turn on the IR LEDs, and an indicator LED that signals whether or not the device is turned on. Putting together this project involved placing and soldering all the components onto the circuit board, periodically testing that everything was working as intended. Once finished, a press of the button starts a broadcast of the most common IR codes for TVs in order to turn them off. 
 
 | **Components list** | **Quantity** |
 | -----------------| ----------------|
