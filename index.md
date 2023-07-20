@@ -423,12 +423,12 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,0);
     } 
-</pre>
+<\pre>
 
 
 ## **Code for Full Arm Operation:**
 
-```
+<pre style="wraparound:#fdfdfd; border:none; height:40pc">
 #include <IRremote.h>
 #include <Servo.h>
 
@@ -627,8 +627,7 @@ void claw_close() {
     delay(15);           // Delay for stability
   }
 }
-
-```
+<\pre>
 
 ### [Assembly Guide for Mini Tank](https://wiki.keyestudio.com/Ks0428_keyestudio_Mini_Tank_Robot_V2)
 
