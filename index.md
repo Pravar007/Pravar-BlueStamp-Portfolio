@@ -423,13 +423,13 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,0);
     } 
-<\pre>
+</pre>
+</div>
 
 
 ## **Code for Full Arm Operation:**
 
 ``` 
-    
 #include <IRremote.h>
 #include <Servo.h>
 
