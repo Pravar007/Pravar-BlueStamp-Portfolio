@@ -1,7 +1,6 @@
 # **Mini Tank**
 
 ![Headstone Image](Pravar-Project.png)
-<img src="Pravar-Project.png"  width="600" height="300">
 
 A tank for the average household, as helpful to you as the M-1 Abrams is to the average soldier. Controlled by a remote, it has the ability to follow your hand, avoid obstacles, follow a light source, and pick up items. It can do this using a suite of sensors, including an ultrasonic sensor, photoresistors, and an IR receiver. To pick things up, it has a robotic arm mounted to the rear, which is controlled by the same remote used to control the tank. The arm can swivel around and pick up any small items like a TV remote and bring them to you. The arm uses four servo motors to allow for a full 360 degrees of reach. The brains of this entire operation are actually split in two; the main tank uses an Arduino UNO, and the arm uses a smaller Arduino NANO. 
 
