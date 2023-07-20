@@ -50,7 +50,7 @@ My first milestone with this project is finishing its assembly. The tank is buil
 
 ## **Code for Full Tank Operation:**
 
-<div style="overflow: auto; max-height: 200px;">
+<div style="overflow: auto; max-height: 40px;">
     <pre>    
         
     #include <IRremoteTank.h>
@@ -421,7 +421,7 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,0);
     }
-      </pre>
+  </pre>
 </div>
 
 
