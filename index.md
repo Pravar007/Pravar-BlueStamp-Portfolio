@@ -50,7 +50,7 @@ My first milestone with this project is finishing its assembly. The tank is buil
 
 ## **Code for Full Tank Operation:**
 
-<div style="overflow: auto; max-height: 40px;">
+<div style="wraparound:#fdfdfd; border:none; height:40px;">
     <pre>    
         
     #include <IRremoteTank.h>
