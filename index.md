@@ -50,7 +50,7 @@ My first milestone with this project is finishing its assembly. The tank is buil
 
 ## **Code for Full Tank Operation:**
 
-<pre style="wraparound:#fdfdfdj border:none, height: 50pc:>
+<pre style="wraparound:#fdfdfdj border:none, height: 40 pc:>
   #include <IRremoteTank.h>
   int RECV_PIN = A0;       
   IRrecv irrecv(RECV_PIN);   
