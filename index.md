@@ -50,7 +50,9 @@ My first milestone with this project is finishing its assembly. The tank is buil
 
 ## **Code for Full Tank Operation:**
 
-<pre style="wraparound:#fdfdfdj border:none, height: 40 pc:>
+<div style="overflow: auto; max-height: 200px;">
+    <pre>
+      
   #include <IRremoteTank.h>
   int RECV_PIN = A0;       
   IRrecv irrecv(RECV_PIN);   
@@ -419,8 +421,8 @@ My first milestone with this project is finishing its assembly. The tank is buil
     digitalWrite(ML_Ctrl,LOW);
     analogWrite(ML_PWM,0);
   }
-</pre>
-
+  </pre>
+</div>
 ## **Code for Full Arm Operation:**
 
 ```
